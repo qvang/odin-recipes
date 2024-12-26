@@ -1,8 +1,25 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: lightgrey;
+    margin: 20px;
+    border: 3px solid black;
+    padding-bottom: 500px;
+}
+
 h1 {
     text-align: center;
     font-size: 45px;
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-family: monospace , sans-serif;
 }
 
 .center {
@@ -10,6 +27,17 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+}
+
+.linkblock {
+    color: black;
+    display: block;
+    text-align: center;
+    margin: 8px;
+    background-color: darkblue;
+    color: white;
+    padding: 12px 30px;
+
 }
 
 p {
@@ -23,4 +51,17 @@ li {
 
 h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    width: 500px;
+    border: 5px solid black;
+    margin: auto;
+}
+
+.chicken,
+.primerib,
+.beef_wellington {
+    margin: 8px;
+    text-align: center;
 }
